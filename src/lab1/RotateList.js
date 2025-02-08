@@ -19,6 +19,7 @@ var rotateRight = function(head, k) {
         tail = tail.next;
         length++;
     }
+
     // чтобы делать меньше итераций
     k = k % length;
     if (k === 0) return head;

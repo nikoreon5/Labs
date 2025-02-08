@@ -15,5 +15,6 @@ var plusOne = function(digits) {
     if (ostatok === 1) {
         digits.unshift(1);
     }
+
     return digits;
 };

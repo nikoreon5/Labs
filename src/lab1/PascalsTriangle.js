@@ -14,5 +14,6 @@ var generate = function(numRows) {
         row.push(1);
         res.push(row);
     }
+
     return res;
 };
